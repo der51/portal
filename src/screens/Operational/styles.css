@@ -1,0 +1,12 @@
+@media screen and (min-width: 100px) {
+
+  .fixedContent {
+    padding: 0;
+  }
+
+  .row {
+    flex-direction: row;
+    display: flex;
+    flex: 1;
+  }
+}

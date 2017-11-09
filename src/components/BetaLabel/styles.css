@@ -1,0 +1,19 @@
+@media screen and (min-width: 100px) {
+  .betaContainer {
+    position: absolute;
+    pointer-events: none;
+    font-size: 64px;
+    z-index: 1;
+    right: 30px;
+    top: 10px;
+    line-height: 100%;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.11); 
+  }
+}
+
+@media print {
+  .betaContainer {
+    display: none;
+  }
+}

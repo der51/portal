@@ -1,0 +1,15 @@
+@media screen and (min-width: 100px) {
+  .columnContainer {
+    width: 10%;
+    min-width: 250px;
+    background-color: #fff;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .5);
+    z-index: 1;
+    border-right: 4px solid #e64a19;
+  }
+
+  .powerlist {
+    height: 100%;
+    position: relative;
+  }
+}

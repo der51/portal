@@ -1,0 +1,32 @@
+@media screen and (min-width: 100px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form__controlWrapper {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .form__controlWrapper:last-child {
+    margin-bottom: 0;
+  }
+
+  .form__controlWrapper_buttons {
+    text-align: center;
+  }
+
+  .form__controlWrapper_offlineButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .form__submitButton {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

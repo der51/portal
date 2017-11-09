@@ -1,0 +1,25 @@
+@media screen and (min-width: 100px) {
+  .list {
+    list-style: none;
+  }
+
+  .listItemInn {
+    padding: 7px 15px;
+    min-height: 78px;
+    transition: color .2s;
+    display: block;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .listItemInn,
+  .listItemInn label {
+    cursor: pointer;
+  }
+
+  .listItemInn input[type="checkbox"],
+  .listItemInn input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: 1px;
+  }
+}

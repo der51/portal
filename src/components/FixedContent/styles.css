@@ -1,0 +1,14 @@
+@media screen and (min-width: 100px) {
+
+  .fixedContent {
+    min-width: 1px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    margin-left: 250px;
+    padding: 0 15px;
+    min-height: 100%;
+  }
+}

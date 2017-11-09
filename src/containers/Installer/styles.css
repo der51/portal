@@ -1,0 +1,23 @@
+@media screen and (min-width: 100px) {
+  .installer {
+    padding: 10px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .odo {
+    margin-top: 3px; 
+  }
+
+  .buttons {
+    text-align: center;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 360px) {
+  .submitButton {
+    align-self: center;
+  }
+}
